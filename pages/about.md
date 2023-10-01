@@ -5,43 +5,53 @@ permalink: /about/
 weight: 1
 ---
 
-<link rel="stylesheet" type="text/css" href="../_sass/_base.scss">
+<!-- <link rel="stylesheet" type="text/css" href="../_sass/_base.scss"> -->
 
-<h6 style="text-align: center;"> <strong>Table of Content&ensp;</strong> | <a href="#achievements">&ensp;Achievements - Robotics&ensp; </a> | <a href="#distinguishesme">&ensp;What Sets Me Apart&ensp;</a> | <a href="#Questionsexcitesme">&ensp;Questions That Excites me</a> </h6>
-
+<!-- <h6 style="text-align: center;"> <strong>Table of Content&ensp;</strong> </h6> -->
+<h6 style="text-align: center;"><a href="#achievements">&ensp; Robotic Milestones &ensp; </a> | <a href="#distinguishesme">&ensp; Unique Qualities &ensp;</a> | <a href="#Questionsexcitesme">&ensp; Questions That Spark My Curiosity </a> </h6>
 
 <!-- # **About Me** -->
-<h1 style="text-align: center;"><b>About Me</b></h1>
-<br>
+<!-- <h1 style="text-align: center;"><b>About Me</b></h1>
+<br> -->
 
 <div class="column">
   <div>
-    <img class="profilepic" style="float: center; border-radius: 50%;" src="../imgs/NarenFormal.jpg" alt="Kitten" title="Naren (Neh-R-ehN)" width="300" height="200" />
+    <img class="profilepic" style="float: center; border-radius: 50%;" src="../imgs/small_main.jpg" alt="Kitten" title="Naren (Neh-R-ehN)" width="300" height="200" />
   </div>
 
 <div class="column" style="width: 100%; margin-left: 0px">
 
   <br>
-  <p style="font-size: 20px">Hello there  <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"> I am <b>Narendhiran</b>. My friends call me Naren (Neh-R-ehN). </p>
-    
-  <br>
+      <p style="text-align: center; font-size: 20px">Greetings! <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20">I go by <b>Sai Manikanta</b>. But friends often refer to me as Mani.</p>
+<br>
+
+
 
   <h2><b>Academic and Robotics Pursuits</b></h2>
   <br>
-
-  <p style="font-size: 18px">
-  I'm currently living my dream, studying at <a href="https://robotics.asu.edu/">ASU Robotics @ ASU</a>, and working on Stretch R1 Robot. Pursuing an <a href="https://ras.engineering.asu.edu/">M.S. in Robotics and Autonomous Systems</a>, Batch of 2024, I aim to advance robotic capabilities in unstructured environments with a focus on perception, Machine Learning, and Aerial Robotics. 
-  </p>
-  <br>
-  <p style="font-size: 18px">
-  I graduated from <a href="https://www.iitp.ac.in/">IIT Patna</a> in 2022 with a Bachelor’s in <a href="https://www.iitp.ac.in/index.php/departments/engineering-technology/mechanical-engineering/">Mechanical Engineering</a>. I was recognized as an Undergraduate Project Finalist for successfully developing a Motion Prediction model for a Towed floating object under <a href="https://www.iitp.ac.in/index.php/people-6/faculty/2-uncategorised/241-view-profile-38">Prof. Subrata Kumar</a> during my Mechanical Engineering degree program.
-  </p>
-
-  <h2 style="font-size: 20px" id="achievements"><b>Robotic Achievements and Research</b></h2>
+    <p style="font-size: 18px">
+    I am currently living out my dream as a student at ,<a href="https://robotics.asu.edu/"> ASU Robotics @ ASU</a>,  right at the heart of innovation. 
+    <br>My goal? To revolutionize robot capabilities in challenging environments, emphasizing perception, Machine Learning, and Aerial Robotics. I thrive on understanding and applying the convergence of automation and AI to real-world challenges, always keeping an eye on the bigger picture.
+    </p>
   <br>
 
   <p style="font-size: 18px">
-  Under my leadership, our team achieved recognition in robotics, becoming <a href="https://drive.google.com/file/d/1kweAUygwfA52OVF7uBK29grWofsJmhxy/view?usp=sharing">National finalists</a> in the 2019-20 <a href="https://portal.e-yantra.org/#about">e-Yantra International Robotics Competition</a> organized by <a href="https://www.iitb.ac.in/">IIT Bombay</a>. We developed an autonomous transportation mobile robot, showcasing innovation in disaster management. Additionally, I developed a simulator ecosystem for autonomous evaluation of the <a href="https://portal.e-yantra.org/#about">e-YRC competition</a>, earning recognition in the prestigious <a href="https://www.e-yantra.org/eysip">e-YIC program</a> under <a href="https://www.linkedin.com/in/kavi-arya/?originalSubdomain=in">Prof. Kavi Arya</a> from <a href="https://www.cse.iitb.ac.in/">IIT Bombay's Department of Computer Science & Engineering</a>.
+    I earned my degree from <a href="https://www.kluniversity.in/">KL Deemed to Be University</a>. Alongside my team and under the guidance of the R&N Dean, <a href="link-to-professor-profile">Prof. Subba Rao</a>, I garnered recognition for conceptualizing and developing an autonomous delivery mobile robot prototype. This project leveraged advanced technologies such as ROS, state estimation, sensor fusion, and real-time control algorithms. My dedication to pushing technological boundaries was evident in this endeavor.
+  </p>
+
+  <h2 style="font-size: 20px" id="achievements"><b>Robotic Achievements</b></h2>
+  <br>
+
+  <p style="font-size: 18px">
+  Under my leadership, our team won the following awards in mobile robotics competitions:
+    <ul>
+    <li>Gold medal in the 2018 state level competition conducted by <a href="https://apssdc.gov.in/">Andhra Pradesh Skill Development Corporation (APSSDC)</a>.</li>
+    <li>Gold medal in the 2018 regional level competition conducted by <a href="https://nsdcindia.org/">National Skills Development Corporation (NSDC)</a>.</li>
+    <li>Silver medal in the 2018 national level competition conducted by <a href="https://nsdcindia.org/">National Skills Development Corporation (NSDC)</a>.</li>
+    <li>Gold medal in the 2020 state level competition conducted by <a href="https://apssdc.gov.in/">Andhra Pradesh Skill Development Corporation (APSSDC)</a>.</li>
+    </ul>
+    <p>
+    </p>
   </p>
 
   <p style="font-size: 18px">
@@ -51,42 +61,48 @@ weight: 1
   <hr> <!-- This line creates a horizontal divider -->
   <br>
   <h2 id="distinguishesme" style="font-size: 25px">
-    <b>What Sets Me Apart</b>
-  </h2><br>
-  <p style="font-size: 18px">
-    <u><b>Resilience</b></u>: My resilience shone through when I overcame the initial setback of failing the JEE Advanced exam, eventually securing admission to my dream institute, IIT. This determination persisted through challenges in robotics competitions, internships, and research, shaping me into a tenacious problem solver and innovator.
-  </p>
-  <p style="font-size: 18px">
-    <u><b>Curiosity</b></u>: I possess a natural eagerness to delve into the mechanics and technological advancements that power everyday gadgets.
-  </p>
-  <p style="font-size: 18px">
-    <u><b>Hacker mindset</b></u>: When creating a robot in R.O.S., I find Visual Studio Code more efficient than editing in a terminal within a docker environment. The speed of VScode and the availability of helpful plugins make it easier for me to create an environment and build a URDF file for a robot, as well as develop C++ plugins. This has made the process smoother and more streamlined.
-  </p>
+   <h2><b>My Unique Qualities</b></h2><br>
+
+<p style="font-size: 18px">
+    <u><b>Perseverance</b></u>: My journey began with a stumble, failing the JEE mains exam. However, my unwavering spirit led me to eventually gain admission into my dream institute, KLU. This same perseverance carried me through challenges in robotics competitions, internships, and research endeavors, molding me into a relentless innovator and problem-solver.
+</p>
+
+<p style="font-size: 18px">
+    <u><b>Inquisitiveness</b></u>: I'm driven by a genuine curiosity, always keen to understand the intricate technology behind everyday gadgets.
+</p>
+
+<p style="font-size: 18px">
+    <u><b>Innovative Approach</b></u>: While working with R.O.S., I've found that Visual Studio Code offers advantages over traditional terminal-based editing in a Docker environment. Its speed and the plethora of available plugins enable me to efficiently set up an environment, craft a URDF file for a robot, and develop C++ plugins, optimizing my workflow.
+</p>
+
   <br>
 
-  <h4 style="font-size: 20px">My Approach: Tackling Complex Problems with Passion</h4><br>
+<h4 style="font-size: 20px">My Philosophy: Passionately Navigating Complex Challenges</h4><br>
+
+<p style="font-size: 18px">
+Leveraging the <a href="#distinguishesme">distinctive skills and qualities</a> I've honed over time, I face intricate challenges head-on, always focusing on the core essence of an issue. I'm fervently drawn to the realms of machine learning and perception within robotics. From creating game-changing code for premier robotics competitions to impactful contributions in open-source platforms, my software expertise is both multifaceted and ever-evolving, enriched by a myriad of professional ventures.
+</p><br>
+
+<p style="font-size: 18px">
+Beyond my technical pursuits, I am deeply moved by the artistry and prowess of performers across various domains. The adrenaline-pumping moments from the final fight in "<a href="https://www.youtube.com/watch?v=IvLl2S2qH1E">Real Steel</a>" particularly resonate with me, showcasing a blend of emotion, technology, and human spirit.
+</p>
+
 
   <br>
-  <p style="font-size: 18px">
-  I harness the <a href="#distinguishesme">above mentioned skills and traits</a> to tackle complex problems, prioritizing problem quality. My passion lies in machine learning and perception methods as they relate to robotics. With experience ranging from short-term code that secured wins in national and international robotics competitions to long-term contributions to open-source projects, my software engineering expertise is versatile and adaptive, honed through various professional experiences.
-  </p><br>
-  <p style="font-size: 18px">
-    In addition to coding and robotics, I find immense joy in appreciating the talent and creativity of artists and musicians. There's nothing that electrifies me more than watching AC/DC's mesmerizing performance of "<a href="https://youtu.be/xRQnJyP77tY">Shoot To Thrill</a>" on the drums, and listening to Miles Teller's rendition of "<a href="https://youtu.be/pVcMsjyKlaM">Great Balls of Fire</a>" never fails to fill me with pure joy.
-  </p>
-  <br>
+
   <hr> <!-- This line creates a horizontal divider -->
-  <h2 id="Questionsexcitesme" style="font-size: 25px"><b>Questions that Excite me</b></h2><br>
+  <hr> <!-- This line creates a horizontal divider -->
+<h2 id="Questionsexcitesme" style="font-size: 25px"><b>Questions That Spark My Curiosity</b></h2><br>
   <p style="font-size: 18px">
     <ul style="font-size: 18px">
-    <li><b>Robotic Autonomy in Unstructured Environments:</b> <br> How can we enhance the autonomy of robots to navigate and perform complex tasks in unstructured, unpredictable environments such as disaster-stricken areas or space exploration missions? </li>
-    <li><b>Robots for Ocean Exploration:</b> <br>What advancements are needed in AI and robotics to explore and preserve the mysteries of the deep sea, studying marine life and ecosystems with minimal environmental impact? </li>
-    <li><b>Experiential Learning in Robotics:</b> <br> How can robots gain real-world experience to improve their performance and adaptability? </li>
-    <li><b>AI-Driven Precision Agriculture:</b> <br> How can AI-powered robots and drones be employed for precision agriculture, not only optimizing crop yields but also minimizing resource usage and environmental impact? </li>
+    <li><b>Unstructured Environments & Robotic Autonomy:</b> <br> How might we elevate robots' ability to autonomously navigate and execute intricate tasks in unpredictable terrains, like disaster zones or interstellar missions? </li>
+    <li><b>Deep Sea Discoveries with Robots:</b> <br> Which innovations in AI and robotics are pivotal for uncovering and conserving the ocean's hidden treasures, while ensuring a sustainable coexistence with marine ecosystems? </li>
+    <li><b>Real-world Learning for Robots:</b> <br> In what ways can robots accumulate hands-on experiences to enhance their adaptability and efficiency in diverse scenarios? </li>
+    <li><b>Precision Farming with AI:</b> <br> How can we leverage AI-infused robots and drones in agriculture to boost crop yields, while ensuring judicious resource consumption and environmental harmony? </li>
     </ul>
   </p>
-</div></div>
 
-<br><br><br>
+<br>
 
 <div class="page-content">
   <div class="wrapper">

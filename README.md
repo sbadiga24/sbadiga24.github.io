@@ -4,7 +4,7 @@ This repository contains the code and assets for my personal portfolio website. 
 
 ## Live Demo
 
-A live demo of the website can be found at [naren200.github.io/](https://naren200.github.io/).
+A live demo of the website can be found at [sbadiga24.github.io/](https://sbadiga24.github.io/).
 
 ## Technologies Used
 
@@ -26,7 +26,7 @@ A live demo of the website can be found at [naren200.github.io/](https://naren20
 
 To run the website locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/naren200/naren200.github.io.git`
+1. Clone the repository: `git clone https://github.com/sbadiga24/sbadiga24.github.io.git`
 2. Open the project folder: `cd your-portfolio-website`
 3. Open the `index.html` file in your preferred web browser.
 
@@ -41,13 +41,13 @@ To run the website locally, follow these steps:
 
 
 
-## Screenshots
+<!-- ## Screenshots
 
 ![Screenshot 1](/screenshots/screenshot1.png)
 *Caption for screenshot 1.*
 
 ![Screenshot 2](/screenshots/screenshot2.png)
-*Caption for screenshot 2.*
+*Caption for screenshot 2.* -->
 
 ## Contributing
 

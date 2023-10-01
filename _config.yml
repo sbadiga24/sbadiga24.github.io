@@ -1,13 +1,13 @@
 ### Site Settings ###
-title               : Narendhiran Saravanane
+title               : Sai Manikanta Badiga
 description         : >-
-                      <br> Welcome to my homepage! <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20">    I am Naren.  <br><br>
+                      <br>Hello and welcome!<img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"> I'm Sai Manikanta, and this is my digital space. <br><br>
                       <b>Robotics Engineer | AI & ML Developer</b> <br>
                     # <a href="https://naren200.github.io/about/">About me</a> | <a href="https://naren200.github.io/projects/">Projects</a> | 
                     # <a href="https://naren200.github.io/pages/cv">Resume</a> | <a href="https://naren200.github.io/art/">Life Goals</a>.
 
 baseurl             :                      # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : naren200/naren200.github.io    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+repository          : sbadiga24/sbadiga24.github.io    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 
 
@@ -26,24 +26,24 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : Narendhiran Saravanane
-  image             : imgs/NarenFormal.jpg
+  name              : Sai Manikanta Badiga
+  image             : imgs/small_main.jpg
   # behance           : your_username
 # dribbble          : your_username
-  email             : narendhiran2000@gmail.com
-  facebook          : narendhiran.saravanane.9
-  github            : naren200
+  email             : sbadiga@asu.edu
+# facebook          : 
+  github            : sbagiga24
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : narendhiran2000
+  linkedin          : badiga-manikanta-2a0948182
   # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : narendhiran2000
+  # twitter           : 
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
@@ -69,7 +69,7 @@ disqus:
 
 ### Analytics ###
 analytics:
-  enabled: true                                        # Set true to enable analytics
+  enabled: false                                        # Set true to enable analytics
   google:
     tracking_id: G-0B45SLBC4K                          # your-google-tracking-id
 
