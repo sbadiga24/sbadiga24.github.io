@@ -1,0 +1,104 @@
+### Site Settings ###
+title               : Narendhiran Saravanane
+description         : >-
+                      <br> Welcome to my homepage! <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20">    I am Naren.  <br><br>
+                      <b>Robotics Engineer | AI & ML Developer</b> <br>
+                    # <a href="https://naren200.github.io/about/">About me</a> | <a href="https://naren200.github.io/projects/">Projects</a> | 
+                    # <a href="https://naren200.github.io/pages/cv">Resume</a> | <a href="https://naren200.github.io/art/">Life Goals</a>.
+
+baseurl             :                      # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : naren200/naren200.github.io    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : YoussefRaafatNasry/portfolYOU
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+#  - documentation/partials/**                           # For Documentation Only
+
+
+### Author Info ###
+author:
+  name              : Narendhiran Saravanane
+  image             : imgs/NarenFormal.jpg
+  # behance           : your_username
+# dribbble          : your_username
+  email             : narendhiran2000@gmail.com
+  facebook          : narendhiran.saravanane.9
+  github            : naren200
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+  linkedin          : narendhiran2000
+  # medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+  twitter           : narendhiran2000
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  # elements:                                             # For Documentation Only
+  #   output: true                                        # For Documentation Only
+
+
+### Disqus ###
+disqus:
+  shortname: naren                 # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: true                                        # Set true to enable analytics
+  google:
+    tracking_id: G-0B45SLBC4K                          # your-google-tracking-id
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  # - scope:                                              # For Documentation Only
+  #     path: ""                                          # For Documentation Only
+  #     type: "elements"                                  # For Documentation Only
+  #   values:                                             # For Documentation Only
+  #     layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
+
+# I turn coffee :coffee: into curosity,
+# use enthusiasm as fuel
+# and never broke production.
