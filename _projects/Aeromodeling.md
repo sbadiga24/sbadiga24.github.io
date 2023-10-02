@@ -1,8 +1,8 @@
 ---
-name: Aeromodeling
+name: Aeromodelling
 tools: [Design Skills,Construction Skills,Electronics and Control,Piloting Skills,Troubleshooting and Repair,Simulation,Safety,Customization and Optimization]
 image: ../imgs/Aero-modeling /delta1.jpeg
-description: Demonstrating a mobile robot's autonomous navigation and manipulation capabilities in a simulated environment using ROS and Gazebo.
+description: Aeromodelling is the craft of designing, building, and flying miniature aircraft. Often scaled-down versions of real planes, these models can be powered or unpowered. Used for recreation, competition, or education, aeromodelling blends art with engineering, offering insights into flight principles and fostering hands-on creativity.
 ---
 # Home-Service Robot Project
 
