@@ -1,8 +1,8 @@
 ---
 name: Visual Tracking Unmanned Vehicle - Mambo Drone 
 tools: [Sensor Fusion, Control Systems, Kalman Filter, Computer Vision, Matlab]
-image: ../imgs/projects/uav-HomeImage.jpeg
-description: Developing a low-cost mini drone line-tracking algorithm using vision-based control and model-based software design, with rigorous testing and MATLAB-based implementation.
+image: ../imgs/projects/mambo.jpg
+description: Crafting a compact drone algorithm for line-tracking through vision-centric control and software design rooted in modeling, all meticulously tested and implemented using MATLAB.
 
 ---
 
