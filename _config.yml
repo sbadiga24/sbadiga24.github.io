@@ -3,8 +3,6 @@ title               : Sai Manikanta Badiga
 description         : >-
                       <br>Hello and welcome!<img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"> I'm Sai Manikanta, and this is my digital space. <br><br>
                       <b>Robotics Engineer | AI & ML Developer</b> <br>
-                    # <a href="https://naren200.github.io/about/">About me</a> | <a href="https://naren200.github.io/projects/">Projects</a> | 
-                    # <a href="https://naren200.github.io/pages/cv">Resume</a> | <a href="https://naren200.github.io/art/">Life Goals</a>.
 
 baseurl             :                      # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : sbadiga24/sbadiga24.github.io    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
