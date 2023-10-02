@@ -1,7 +1,7 @@
 ---
-name: Home-Service Robot Project
-tools: [ROS, Gazebo, Mapping, Localization, Path Planning, Robotics]
-image: ../imgs/projects/home-service-robot.png
+name: Aeromodeling
+tools: [Design Skills,Construction Skills,Electronics and Control,Piloting Skills,Troubleshooting and Repair,Simulation,Safety,Customization and Optimization]
+image: ../imgs/Aero-modeling /delta1.jpeg
 description: Demonstrating a mobile robot's autonomous navigation and manipulation capabilities in a simulated environment using ROS and Gazebo.
 ---
 # Home-Service Robot Project
