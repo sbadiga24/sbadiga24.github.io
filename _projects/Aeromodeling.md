@@ -4,52 +4,18 @@ tools: [Design Skills,Construction Skills,Electronics and Control,Piloting Skill
 image: ../imgs/Aero-modeling /delta1.jpeg
 description: Aeromodelling is the craft of designing, building, and flying miniature aircraft. Often scaled-down versions of real planes, these models can be powered or unpowered. Used for recreation, competition, or education, aeromodelling blends art with engineering, offering insights into flight principles and fostering hands-on creativity.
 ---
-# Home-Service Robot Project
-
+# Aeromodelling
 ## Overview
-The **Home-Service Robot project** serves as a comprehensive showcase of robotics expertise, leveraging state-of-the-art technologies and methodologies to demonstrate a mobile robot's capabilities in a simulated environment. This project harnesses the power of **Robot Operating System (ROS)**, **Gazebo simulation**, advanced **mapping**, **localization**, and **path planning** to illustrate the robot's prowess in autonomous navigation and manipulation.
+**Aeromodelling** is a captivating blend of art, science, and engineering, centered on the design, construction, and flight of **model aircraft**. Historically a testing ground for aviation pioneers, it now stands as a popular hobby for enthusiasts worldwide. It offers a hands-on understanding of principles like aerodynamics, **control, and propulsion**. As technology advances, modern model aircraft incorporate advanced materials,**electronic systems**, and even autonomous flight capabilities, making aeromodelling a testament to humankind's enduring fascination with flight.
 
-## **Designing in Physics Engine - Gazebo**
-### Building Editor, Model Editor, and Plugins
-The project entails the creation of a dynamic environment using the **Building Editor** in Gazebo, offering ample space for the robot's operations. The environment features diverse elements and vibrant colors, enhancing the robot's navigation experience. The robot itself is meticulously designed using the **Model Editor**, ensuring precise integration of sensors and mechanical components. **Fixed joints** connect the robot's model links, guaranteeing stability during movement.
+## **Designing RC Delta - Gazebo**
+In the realm of aeromodelling, designing an RC Delta plane is a blend of aesthetics and functionality. The Delta configuration, characterized by its triangular or wing-shaped design, offers agility, speed, and stability, especially at high altitudes. While its unique shape reduces wingtip vortices, enhancing aerodynamic efficiency, it also demands careful placement of control surfaces. Modern RC Delta planes often incorporate advanced materials for lightweight yet robust construction. By balancing these design aspects with considerations for propulsion, control systems, and electronics, enthusiasts can craft an RC Delta plane tailored for both performance and maneuverability.
+- **Build**: 
+<img src="../imgs/projects/Aero-modelling/delta1.jpeg" alt="drawing" width="1050"/>
 
-- **Building Editor**: 
-<img src="../imgs/projects/hsr-building-editor.png" alt="drawing" width="1050"/>
+**DEMO**:
 
-- **Model Editor**: 
-<img src="../imgs/projects/hsr-model-editor.png" alt="drawing" width="1050"/>
+<iframe width="1050" height="591" src="https://www.youtube.com/watch?v=lj6fSuU0Zqg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- **Gazebo Plugins**: The robot is equipped with advanced sensors, including **lidar** and **camera**, with **Gazebo plugins** seamlessly integrated to facilitate differential drive, lidar sensing, and camera functionality.
 
-## **Autonomous Operation**
-### Ball Chasing
-A key highlight of the project is the robot's ability to autonomously **chase a white-colored ball** within the environment. This impressive capability is achieved through the implementation of ROS nodes for interaction and navigation.
-
-- **Ball Chasing Video**: 
-  [Watch Ball Chasing Video](https://example.com/ball-chasing-video)
-
-## **Precise Localization**
-### AMCL Package
-Accurate **localization** is fundamental to the robot's autonomy. The project utilizes the **Adaptive Monte Carlo Localization (AMCL)** package, a particle filter-based algorithm. AMCL leverages a known map and sensor data, such as laser scans and odometry, to estimate the robot's pose (position and orientation) within the environment.
-
-<img src="../imgs/projects/hsr-localization.png" alt="drawing" width="1050"/>
-
-## **Mapping and Navigation**
-### Gmapping and Move_Base
-Efficient **mapping** and **navigation** are achieved using the **gmapping** package for 2D occupancy grid mapping. This technology allows the robot to build and utilize maps for its autonomous movement. The **move_base** package serves as the high-level navigation controller, employing a combination of global and local path planning algorithms to enable obstacle avoidance and efficient goal attainment.
-
-- **Mapping Images**: 
-<img src="../imgs/projects/hsr-mapping1.png" alt="drawing" width="1050"/>
-<img src="../imgs/projects/hsr-mapping2.png" alt="drawing" width="1050"/>
-
-- **Path Planning Video**: 
-  [Watch Path Planning Video](https://example.com/path-planning-video)
-
-## **Conclusion**
-The Home-Service Robot Project is a testament to the convergence of cutting-edge robotics concepts and technologies. It highlights the robot's prowess in autonomous navigation, localization, and interaction within a simulated environment. This project showcases the immense potential of ROS and Gazebo for simulating and validating robotic systems.
-
-For in-depth technical details and access to project code, please visit the [GitHub repository](https://github.com/example/home-service-robot).
-
-## **Certificates and Achievements**
-Secured an excellent completion reward from the Udacity Team. [Graduation Credential](https://confirm.udacity.com/e/2f4b0cdc-83f2-11ed-8b40-43252fe017cf)
-<img src="../imgs/projects/hsr-certificates.png" alt="drawing" width="1050"/>
+https://youtu.be/lj6fSuU0Zqg
