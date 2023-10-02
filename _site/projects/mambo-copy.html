@@ -20,11 +20,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Aeromodelling">
-  <meta property="og:description" content="Aeromodelling is the craft of designing, building, and flying miniature aircraft. Often scaled-down versions of real planes, these models can be powered or u...">
+  <meta property="og:title" content="Visual Tracking Unmanned Vehicle - Mambo Drone">
+  <meta property="og:description" content="Crafting a compact drone algorithm for line-tracking through vision-centric control and software design rooted in modeling, all meticulously tested and imple...">
 
-  <title>Aeromodelling</title>
-  <meta name="description" content="Aeromodelling is the craft of designing, building, and flying miniature aircraft. Often scaled-down versions of real planes, these models can be powered or u...">
+  <title>Visual Tracking Unmanned Vehicle - Mambo Drone</title>
+  <meta name="description" content="Crafting a compact drone algorithm for line-tracking through vision-centric control and software design rooted in modeling, all meticulously tested and imple...">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -81,19 +81,25 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 post">
-  <h1 id="aeromodelling">Aeromodelling</h1>
-<h2 id="overview">Overview</h2>
-<p><strong>Aeromodelling</strong> is a captivating blend of art, science, and engineering, centered on the design, construction, and flight of <strong>model aircraft</strong>. Historically a testing ground for aviation pioneers, it now stands as a popular hobby for enthusiasts worldwide. It offers a hands-on understanding of principles like aerodynamics, <strong>control, and propulsion</strong>. As technology advances, modern model aircraft incorporate advanced materials,<strong>electronic systems</strong>, and even autonomous flight capabilities, making aeromodelling a testament to humankind’s enduring fascination with flight.</p>
+  <h1 id="mambo-drone---line-following-algorithm-through-image-processing">Mambo Drone - Line Following Algorithm through Image Processing</h1>
 
-<h2 id="designing-rc-delta---gazebo"><strong>Designing RC Delta - Gazebo</strong></h2>
-<p>In the realm of aeromodelling, designing an RC Delta plane is a blend of aesthetics and functionality. The Delta configuration, characterized by its triangular or wing-shaped design, offers agility, speed, and stability, especially at high altitudes. While its unique shape reduces wingtip vortices, enhancing aerodynamic efficiency, it also demands careful placement of control surfaces. Modern RC Delta planes often incorporate advanced materials for lightweight yet robust construction. By balancing these design aspects with considerations for propulsion, control systems, and electronics, enthusiasts can craft an RC Delta plane tailored for both performance and maneuverability.</p>
-<ul>
-  <li><strong>Build</strong>: 
-<img src="../imgs/Aero-modeling /delta1.jpeg" alt="drawing" width="1050" /></li>
-</ul>
+<h2 id="project-overview">Project Overview</h2>
+<p>The Mambo Drone Line Following Algorithm project showcases an innovative application of robotics and computer vision technology. This project’s primary objective is to enable a Parrot Mambo Fly mini-drone to autonomously follow a designated path using image processing techniques. By harnessing the power of control systems, sensor fusion, localization, mapping, and a sophisticated navigation module, this project aims to demonstrate the mini-drone’s ability to track and follow a predefined line accurately.</p>
 
-<p><strong>DEMO</strong>:</p>
-<iframe width="860" height="515" src="https://youtu.be/lj6fSuU0Zqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<h2 id="control-systems-for-drone">Control Systems for Drone</h2>
+<p>In this project, the control system is at the heart of ensuring precise and stable flight for the Mambo drone. The control system consists of several components, including altitude control, orientation control (roll, pitch, and yaw), and line following control. Each of these components plays a crucial role in maintaining the drone’s stability and alignment with the desired path.</p>
+
+<h2 id="sensor-fusion-and-kalman-filter">Sensor Fusion and Kalman Filter</h2>
+<p>To achieve accurate and reliable flight control, sensor fusion is implemented. The drone relies on various sensors, such as accelerometers, gyroscope, barometer, and an optical flow sensor from its downward-facing camera. The Kalman filter algorithm is utilized to combine data from these sensors, providing an accurate estimation of the drone’s state, including position, orientation, and velocity. Sensor fusion ensures that the drone can maintain stable flight even in the presence of external disturbances.</p>
+
+<h2 id="localization-and-mapping">Localization and Mapping</h2>
+<p>Accurate localization and mapping are essential for the drone to understand its position relative to the predefined path. Through the fusion of sensor data and advanced algorithms, the drone builds a map of its environment and continuously updates its position within that map. This mapping and localization information are used to ensure the drone remains on the desired path, adjusting its trajectory as needed.</p>
+
+<h2 id="navigation-module">Navigation Module</h2>
+<p>The navigation module is the brain behind the Mambo drone’s ability to follow the line accurately. It takes the processed image data from the downward-facing camera, detects the line’s position, and calculates the necessary control inputs to keep the drone on track. The navigation module is equipped with image processing techniques, including edge detection, color thresholding, and contour analysis, to precisely follow the line’s path.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>The Mambo Drone Line Following Algorithm project demonstrates the integration of control systems, sensor fusion, localization, mapping, and advanced image processing for autonomous navigation. By successfully implementing these components, the mini-drone can autonomously follow a designated line, showcasing the potential of robotics and computer vision in real-world applications. This project serves as a testament to the capabilities of modern drones and their potential in various industries, from logistics to agriculture and beyond.</p>
 
 </div>
   </main>

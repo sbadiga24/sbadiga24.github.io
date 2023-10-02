@@ -11,11 +11,7 @@ description: Aeromodelling is the craft of designing, building, and flying minia
 ## **Designing RC Delta - Gazebo**
 In the realm of aeromodelling, designing an RC Delta plane is a blend of aesthetics and functionality. The Delta configuration, characterized by its triangular or wing-shaped design, offers agility, speed, and stability, especially at high altitudes. While its unique shape reduces wingtip vortices, enhancing aerodynamic efficiency, it also demands careful placement of control surfaces. Modern RC Delta planes often incorporate advanced materials for lightweight yet robust construction. By balancing these design aspects with considerations for propulsion, control systems, and electronics, enthusiasts can craft an RC Delta plane tailored for both performance and maneuverability.
 - **Build**: 
-<img src="../imgs/projects/Aero-modelling/delta1.jpeg" alt="drawing" width="1050"/>
+<img src="../imgs/Aero-modeling /delta1.jpeg" alt="drawing" width="1050"/>
 
 **DEMO**:
-
-<iframe width="1050" height="591" src="https://www.youtube.com/watch?v=lj6fSuU0Zqg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-https://youtu.be/lj6fSuU0Zqg
+<iframe width="860" height="515" src="https://youtu.be/lj6fSuU0Zqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
