@@ -4,7 +4,7 @@
     src: /imgs/education/asu-logo.png
     alt: Arizona State University
   date: Aug '22 - May '24
-  description: Career transitioned with challenging AI & ML courses. 
+  description: I am currently pursuing my MS in Robotics and Autonomous Systems (AI) while volunteering at the Logos Robotics Lab under the mentorship of Professor Nakul Gopalan. This academic endeavor has been an enriching experience, providing me with valuable insights into the world of robotics and automation.
 # - title: Robotics Software Engineer Nanodegree
   # company: Udacity
   # image:
@@ -18,5 +18,5 @@
   image:
     src: /imgs/education/KLU.jpg
     alt: Indian Institute of Technology Patna
-  date: Jul '18 - Aug '22
+  date: Jul '18 - Mar '22
   description: Recognized for Technical Excellence in the Department of Electronic and Communication Engineering with a specialization in Robotics and Automation at KLU, I graduated with an impressive 86.6% and secured a prestigious silver medal in the National Level Mobile Robotics Competition organized by NSDC.

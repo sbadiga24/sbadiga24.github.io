@@ -59,7 +59,7 @@
         {% endfor %}
         
         <hr>
-        <br><h4 class="page-heading">Publications</h4><br>
+        <br><h4 class="page-heading"> Certification </h4><br>
         {% for item in site.data.publication %}
         <div class="work-item">
         <!-- <img
@@ -73,9 +73,7 @@
             alt="{{ item.image.alt }}"
             class="work-bubble"
             />
-            {% if item.date %}
-            <h6 style="font-size: 3; font-family: sans-serif;">{{ item.date }}</h6>
-            {% endif %}
+          
         </div>
         <p class="work-text">
             <strong>{{ item.title }}</strong> | <em>{{ item.company }}</em>

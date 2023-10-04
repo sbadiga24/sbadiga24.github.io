@@ -1,16 +1,47 @@
-- title: Design of Autonomous Carrier Robot - Task and Validation
-  company: Indian Institute of Science, Bangalore.
+- title: ROS1 
+  company: Udemy
   image:
-    src: /imgs/publication/i4am22.png
-    alt: I4AM 2022
-  date: Nov '21 - Jan '22
-  description: A robotic prototype equipped with a white line sensor follows predefined paths, detects and navigates around obstacles, and performs various material handling tasks, specifically designed for applications in production and healthcare environments with a focus on General Hospital operations.
-
-
-- title: Energy Efficient Coatings for Improved Wear and Tear Performance
-  company: Neyveli Lignite Corporation, TamilNadu
-  image:
-    src: /imgs/publication/nlc.png
+    src: /imgs/education/Udemy,jpg
     alt: NLC
-  date: Aug '21 - Nov '21
-  description: The application of polymer coating in circulating water pumps' hydraulic passages increased pump efficiency from 84.17% to 88.42%, handling a higher flow rate and saving power for the NLCIL plant in southern India
+  description:  <a href="https://docs.google.com/viewerng/viewer?url=https://sbadiga24.github.io/imgs/certificates/ROS1.pdf">Certified in ROS 1 Basics, Motion Control, and OpenCV on Udemy </a>, Acquired essential skills in the Robot Operating System (ROS) framework, including foundational concepts, motion control techniques, and computer vision integration using OpenCV. Proficient in developing and programming robots for diverse applications.
+
+- title: Python Data Structures
+  company: coursera
+  image:
+    src: /imgs/education/coursera.png
+    alt: NLC
+  description: <a href="https://docs.google.com/viewerng/viewer?url=https://sbadiga24.github.io/imgs/certificates/py_data-stru.pdf">Certified in Python Data Structures on Coursera </a>, Mastery of essential data structures and algorithms in Python, gained through a comprehensive online course. Proficient in implementing and utilizing arrays, lists, stacks, queues, trees, and graphs to solve complex problems and optimize code.
+
+- title: Python
+  company: coursera
+  image:
+    src: /imgs/education/coursera.png
+    alt: NLC
+  description:  <a href="https://docs.google.com/viewerng/viewer?url=https://sbadiga24.github.io/imgs/certificates/py_basic.pdf">Certified in Python on Coursera</a>, Acquired foundational knowledge of Python programming, including syntax, data types, control structures, and basic problem-solving skills. Proficient in writing and executing Python code for various programming tasks and applications.
+
+- title: PCB design with Eagle
+  company: Udemy
+  image:
+    src: /imgs/education/udemy.jpg
+    alt: NLC
+  description:  <a href="https://docs.google.com/viewerng/viewer?url=https://sbadiga24.github.io/imgs/certificates/Eagle.pdf">Certified in PCB Design with Eagle on Udemy</a>, Mastery of the Eagle PCB design software through comprehensive online courses, covering schematic capture, component placement, routing, and manufacturing considerations. Proficient in creating professional-grade printed circuit boards for various electronic applications.
+
+- title: Computer Vision and Image Processing in LabVIEW
+  company: Udemy
+  image:
+    src: /imgs/education/udemy.jpg
+    alt: NLC
+  description: <a href="https://docs.google.com/viewerng/viewer?url=https://sbadiga24.github.io/imgs/certificates/CV_labview.pdf">Certified in Computer Vision and Image Processing with LabVIEW on Udemy</a>, Acquired expertise in harnessing LabVIEW's powerful tools and techniques to process and analyze images and videos. Proficient in designing and implementing computer vision applications for real-world scenarios, enhancing skills in image processing, object detection, and machine vision.
+
+- title: Certified LabVIEW Developer (CLD)
+  company: National Instruments
+  image:
+    src: /imgs/education/ni.png
+    alt: I4AM 2022
+  description:  <a href="https://docs.google.com/viewerng/viewer?url=https://sbadiga24.github.io/imgs/certificates/imgs/certificates/Sai Manikanta Badiga_CLD.pdf">Certified LabVIEW Developer (CLD) by NI</a>, Achieved proficiency in National Instruments' LabVIEW programming environment, demonstrating expertise in developing and optimizing advanced automation and measurement solutions. Skilled in creating efficient, reliable, and scalable software applications for diverse engineering and scientific applications.
+- title: Certified LabVIEW Associate Developer (CLAD)
+  company: National Instruments
+  image:
+    src: /imgs/education/ni.png
+    alt: NLC
+  description: <a href="https://docs.google.com/viewerng/viewer?url=https://sbadiga24.github.io/imgs/certificates/imgs/certificates/Sai Manikanta Badiga_CLAD.pdf">Certified LabVIEW Associate Developer (CLAD) by National Instruments (NI)</a>, Demonstrates proficiency in using LabVIEW software for creating, testing, and deploying measurement and automation applications. Skilled in developing custom solutions to streamline data acquisition and analysis processes.
