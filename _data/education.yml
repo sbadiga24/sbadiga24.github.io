@@ -4,19 +4,19 @@
     src: /imgs/education/asu-logo.png
     alt: Arizona State University
   date: Aug '22 - May '24
-  description: Career transitioned with challenging AI & ML courses. Researched on control synthesis of Multi-Agent Systems under Prof. Zhe Xu. 
-- title: Robotics Software Engineer Nanodegree
-  company: Udacity
-  image:
-    src: /imgs/education/uda-logo.jpeg
-    alt: Udacity
-  date: Dec '22
-  description: Awarded the prestigious Udacity Scholarship. Completed challenging robotic projects and received industry-recognized certification.
+  description: Career transitioned with challenging AI & ML courses. 
+# - title: Robotics Software Engineer Nanodegree
+  # company: Udacity
+  # image:
+  #   src: /imgs/education/uda-logo.jpeg
+  #   alt: Udacity
+  # date: Dec '22
+  # description: Awarded the prestigious Udacity Scholarship. Completed challenging robotic projects and received industry-recognized certification.
 
-- title: B.Tech in Mechanical Engineering
-  company: IIT Patna, India
+- title: B.Tech in electronic and communication engineering
+  company: KLU Guntur, India
   image:
-    src: /imgs/education/iitp-logo.png
+    src: /imgs/education/KLU.jpg
     alt: Indian Institute of Technology Patna
   date: Jul '18 - Aug '22
-  description: Capstone Project Recognized for Technical Excellence in Mechanical Engineering Department. Led IIT Patna's student quadrupedal robot team to National (India) Finalist Status (99.7 percentile). Achieved 99.4 percentile in JEE Advanced (All India Rank 6973).
+  description: Recognized for Technical Excellence in the Department of Electronic and Communication Engineering with a specialization in Robotics and Automation at KLU, I graduated with an impressive 86.6% and secured a prestigious silver medal in the National Level Mobile Robotics Competition organized by NSDC.

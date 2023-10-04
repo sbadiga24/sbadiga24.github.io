@@ -36,7 +36,7 @@ weight: 1
   <br>
 
   <p style="font-size: 18px">
-    I earned my degree from <a href="https://www.kluniversity.in/">KL Deemed to Be University</a>. Alongside my team and under the guidance of the R&N Dean, <a href="link-to-professor-profile">Prof. Subba Rao</a>, I garnered recognition for conceptualizing and developing an autonomous delivery mobile robot prototype. This project leveraged advanced technologies such as ROS, state estimation, sensor fusion, and real-time control algorithms. My dedication to pushing technological boundaries was evident in this endeavor.
+    I earned my degree in Electronic and communication from <a href="https://www.kluniversity.in/">KL Deemed to Be University</a>. Alongside my team and under the guidance of the R&N Dean, <a href="link-to-professor-profile">Prof. Subba Rao</a>, I garnered recognition for conceptualizing and developing an autonomous delivery mobile robot prototype. This project leveraged advanced technologies such as ROS, state estimation, sensor fusion, and real-time control algorithms. My dedication to pushing technological boundaries was evident in this endeavor.
   </p>
 
   <h2 style="font-size: 20px" id="achievements"><b>Robotic Achievements</b></h2>
