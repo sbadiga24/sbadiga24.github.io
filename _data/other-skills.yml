@@ -1,9 +1,19 @@
-- name: ROS & V-Rep
+- name: ROS
   percentage: 95
   color: info
   showPercentage: false
 
-- name: TensorFlow & Pytorch
+- name: Mission Planner, ArduPilot
+  percentage: 95
+  color: primary
+  showPercentage: false
+
+- name: Docker, Linux
+  percentage: 70
+  color: primary
+  showPercentage: false
+
+- name: TensorFlow
   percentage: 70
   color: success
   showPercentage: false
@@ -13,7 +23,7 @@
   color: success
   showPercentage: false
 
-- name: Solidworks & Ansys
-  percentage: 100
+- name: fusion 360
+  percentage: 75
   color: success
   showPercentage: false
