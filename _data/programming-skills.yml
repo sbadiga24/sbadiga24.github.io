@@ -8,6 +8,11 @@
   color:
   showPercentage: false
 
+- name: LabVIEW
+  percentage: 95
+  color: secondary
+  showPercentage: false
+
 - name: Matlab
   percentage: 70
   color: secondary
