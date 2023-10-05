@@ -23,7 +23,7 @@
   color: secondary
   showPercentage: false
 
-- name: HTML,SQL,JS
+- name: HTML,CSS,JS,SQL
   percentage: 75
   color: Third
   showPercentage: false
