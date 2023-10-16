@@ -14,4 +14,4 @@ In the realm of aeromodelling, designing an RC Delta plane is a blend of aesthet
 <img src="../imgs/Aero-modeling /delta1.jpeg" alt="drawing" width="1050"/>
 
 **DEMO**:
-<iframe width="860" height="515" src="https://youtu.be/lj6fSuU0Zqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lj6fSuU0Zqg?si=kccGUejS8ZEl2uot&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
