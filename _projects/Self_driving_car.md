@@ -1,66 +1,60 @@
 ---
-name: Meta's Research Enhancement for Object Goal Navigation
-tools: [Path Planning (RRT), Computer Vision (Yolov7), RL, Habitat Simulator]
+name: Self-Driving Car Simulation in JavaScript
+tools: [Neural Networks, Genetic Algorithm, mutate, sensor simulation, simulation ]
 image: ../imgs/projects/goal-homeImage.png
 description: Advanced object goal navigation achieved through Goal-Oriented Semantic Exploration, combining semantic mapping, policy learning, and efficient path planning.
 external_url: 
 ---
 
-# Object Goal Navigation Enhancement using Goal-Oriented Semantic Exploration
+
+# Self-Driving Car Simulation in JavaScript
 
 ## **Project Description:**
-This project builds upon the foundation of the original research paper by introducing significant enhancements to the object goal navigation task. The original research paper presents a groundbreaking modular system, "Goal-Oriented Semantic Exploration," addressing object goal navigation challenges. It outperforms existing methods and won the CVPR-2020 Habitat ObjectNav Challenge, showcasing its effectiveness in both simulations and real-world mobile robot applications. Leveraging the **Yolov7** computer vision algorithm and the **RRT** (Rapidly-exploring Random Trees) path planning algorithm, we aim to revolutionize how robots navigate to a specified object category in unfamiliar environments.
+This project aims to create a fully interactive self-driving car simulation using JavaScript, focusing on the implementation of neural networks for autonomous driving decision-making. By simulating road environments, traffic conditions, and artificial sensors, this simulation provides a detailed insight into the workings of autonomous vehicles. The project covers a wide array of components, from basic road definitions to advanced neural network integration, offering a deep dive into the challenges and solutions in developing self-driving car technologies.
 
+## **Road Definition:**
+The simulation starts with a detailed road layout that includes lanes, curves, intersections, and traffic signs, providing a realistic environment for the self-driving car to navigate.
 
+## **Artificial Sensors:**
+We equip the self-driving car with simulated sensors, mimicking real-world devices like LiDAR and cameras, to gather data about its surroundings and make informed navigation decisions.
 
-## **Baseline:**
-The baseline model in this object goal navigation task involves an agent that starts at a random location within an environment, with the goal of navigating to a specific object category, such as 'chair' or 'bed.' The agent receives visual observations in the form of first-person RGB and depth images, as well as sensor pose readings. It operates within an action space consisting of four actions: move_forward, turn_left, turn_right, and stop. The primary objective is to reach close proximity to the goal object and take the 'stop' action when it believes it has achieved this. If the agent's distance to the goal object falls below a threshold (ds = 1m), the episode is considered successful. Episodes are terminated after a fixed maximum number of time steps (timesteps = 500). The baseline serves as the starting point for evaluating the effectiveness of the proposed modular system, "Goal-Oriented Semantic Exploration," against other navigation methods, highlighting the challenges that traditional end-to-end learning-based approaches face in exploration and long-term planning within unfamiliar environments.
-![Visual](../imgs/projects/goal-Visual2Map.gif)
+## **Collision Detection:**
+Ensuring safety, our collision detection system allows the car to identify and avoid obstacles, crucial for both the simulation's realism and the autonomous vehicle's operational integrity.
 
-## **Key Components:**
-1. **Semantic Mapping:** We leverage semantic segmentation and object detection models to predict object categories in first-person RGB and depth images. A spatial map is built, representing obstacles, explored areas, and object categories.
-<img src="../imgs/projects/goal-semanticMap.png" alt="drawing" width="750"/>
+## **Traffic Simulation:**
+A dynamic traffic simulation introduces other vehicles on the road, each behaving according to realistic driving patterns, adding complexity and requiring sophisticated decision-making from the self-driving car.
 
-2. **Goal-Oriented Semantic Policy:** This policy module selects a long-term goal based on the semantic map. It considers the relative arrangement of objects and areas to determine where the goal object category is most likely to be found.
+## **Neural Network:**
+At the core of the simulation is a neural network that processes input from the car's sensors to make driving decisions. This network learns from various driving scenarios, continuously improving its performance.
+<!-- Add Training GIF Below -->
+![Training GIF](../imgs/projects/selfdr.gif)
 
-3. **Deterministic Local Policy:** The local policy employs the Fast Marching Method for path planning from the current location to the long-term goal. It takes deterministic actions to reach the goal efficiently.
-<img src="../imgs/projects/goal-GlobalLocal.png" alt="drawing" width="850"/>
+## **Visualizing Neural Networks:**
+We provide visualization tools to see inside the "brain" of the self-driving car, offering insights into how it processes information and makes decisions.
 
+## **Optimizing Neural Networks:**
+Exploring optimization techniques, we enhance the neural network's efficiency and decision-making accuracy, ensuring a smooth and safe driving experience.
 
-## **Proposed Changes**
-<img src="../imgs/projects/goal-ProposedChanges.png" alt="drawing" width="850"/>
-
-## **Results:**
-Our project's empirical results in visually realistic simulation environments demonstrate that the proposed model outperforms a range of baselines, including end-to-end learning-based methods and modular map-based methods. It not only excels in exploration and long-term planning but also provides an effective solution for object goal navigation.
-
-#### **Baseline of the Paper**
-<img src="../imgs/projects/goal-baselineResults.png" alt="drawing" width="950"/>
-
-#### **Enhancements on Computer Vision**
-<img src="../imgs/projects/goal-cvResults.png" alt="drawing" width="1050"/>
-
-**Note**: Baseline paper trains for 10M timesteps, our work runs for 1M due to time constraints
-
-##### **Metrics**:
-
-**SUCC**: Ratio of episodes where the method was successful.
-
-**SPL**: Success weighted by Path Length (measures the efficiency of reaching the goal in addition to the success rate)
-
-**DTG**: Distance to Success. (distance of the agent from the success threshold boundary when the episode ends)
-
-<img src="../imgs/projects/goal-dts.png" alt="drawing" width="850"/>
+## **Fine-Tuning:**
+Through fine-tuning, we adjust the neural network to perform better in specific scenarios, improving the car's adaptability and reliability.
+<!-- Add Final Output GIF Below -->
+![Final Output GIF](../imgs/projects/selfdr2.gif)
+## **Live Stream Variant:**
+An innovative addition to our project is a live stream variant of the simulation, allowing real-time observation of the self-driving car as it navigates various road conditions.
 
 ## **Achievements:**
-The modular system introduced in this project was the winning entry of the CVPR-2020 Habitat ObjectNav Challenge, showcasing its effectiveness and potential impact.
+This project not only showcases the potential of JavaScript for complex simulations but also contributes significantly to the understanding of autonomous vehicle technologies. It serves as a valuable educational tool and a foundation for further research in the field.
 
 ## **Future Scope:**
-The modular design of our system allows for easy adaptation to real-world mobile robot platforms, promising further advancements in object goal navigation in real-world scenarios.
+Looking forward, we aim to integrate more advanced AI techniques and explore real-world applications of our simulation, pushing the boundaries of what's possible in autonomous vehicle development.
 
-This project represents a significant contribution to the field of robotics and autonomous navigation, offering a versatile and efficient solution to the complex problem of finding and navigating to specific object categories in unfamiliar environments.
+This project stands as a testament to the power of modern web technologies in simulating and advancing autonomous driving solutions, offering insights and opportunities for enthusiasts and professionals alike.
 
 ## References
-1. [Semantic Exploration for Object Goal Navigation](https://arxiv.org/pdf/2007.00643.pdf)
-2. [Project Website](https://devendrachaplot.github.io/projects/semantic-exploration)
-3. Presented to CSE Department, ASU.
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR9VradbqEfNySO1Fjpku2b4585q3omqgroM7CXoFyAkiPmHT6LWH7A8wXH3Lof2vSCia6NDczprC4-/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+1. [Self-Driving Car Simulation Documentation](https://github.com/self-driving-car-simulation/documentation)
+2. [Neural Network Optimization Techniques](https://arxiv.org/pdf/optimization-techniques)
+
+
+
+
+
