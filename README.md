@@ -57,4 +57,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 This project is licensed under the [MIT License](LICENSE).
 
-<p align='center'>Created with :heart: by <a href="https://www.linkedin.com/in/narendhiran2000/">Narendhiran</a></p>
+<p align='center'>Created with :heart: by <a href="https://www.linkedin.com/in/badiga-manikanta-2a0948182/">Sai Manikanta Badiga</a></p>
