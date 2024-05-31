@@ -18,7 +18,7 @@ The control system ensures stable and precise flight, encompassing altitude cont
 ## Sensor Fusion and Kalman Filter
 Sensor fusion combines data from the drone's accelerometers, gyroscope, barometer, and optical flow sensor using a Kalman filter algorithm. This provides accurate estimations of the drone's state, ensuring stable flight even with external disturbances.
 ## DEMO:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lj6fSuU0Zqg?si=HBvBvLvQ8UzPL-Pn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtube.com/embed/eqZASWMLjzQ?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Navigation Module
 The navigation module processes image data from the downward-facing camera to detect the line and calculate control inputs. It uses image processing techniques like edge detection, color thresholding, and contour analysis to keep the drone on track.

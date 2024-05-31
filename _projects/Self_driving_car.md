@@ -1,7 +1,7 @@
 ---
 name: Self-Driving Car Simulation in JavaScript
 tools: [Neural Networks, Genetic Algorithm, mutate, sensor simulation, simulation ]
-image: ../imgs/projects/goal-homeImage.png
+image: ../imgs/selfdr.jpg
 description: Advanced object goal navigation achieved through Goal-Oriented Semantic Exploration, combining semantic mapping, policy learning, and efficient path planning.
 external_url: 
 ---
