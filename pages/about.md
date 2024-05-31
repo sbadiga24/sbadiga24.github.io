@@ -16,7 +16,7 @@ weight: 1
 
 <div class="column">
   <div>
-    <img class="profilepic" style="float: center; border-radius: 50%;" src="../imgs/small_main.jpg" alt="Kitten" title="Naren (Neh-R-ehN)" width="300" height="200" />
+    <img class="profilepic" style="float: center; border-radius: 50%;" src="../imgs/small_main.jpg" alt="Kitten" title="Sai Manikanta" width="300" height="200" />
   </div>
 
 <div class="column" style="width: 100%; margin-left: 0px">

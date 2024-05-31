@@ -69,7 +69,7 @@ disqus:
 analytics:
   enabled: false                                        # Set true to enable analytics
   google:
-    tracking_id: G-0B45SLBC4K                          # your-google-tracking-id
+    tracking_id: G-KLBNSJBD9N                          # your-google-tracking-id
 
 
 ### Defaults for collections ###
