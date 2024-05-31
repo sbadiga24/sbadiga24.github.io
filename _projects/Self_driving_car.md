@@ -50,9 +50,9 @@ Looking forward, we aim to integrate more advanced AI techniques and explore rea
 
 This project stands as a testament to the power of modern web technologies in simulating and advancing autonomous driving solutions, offering insights and opportunities for enthusiasts and professionals alike.
 
-## References
+<!-- ## References
 1. [Self-Driving Car Simulation Documentation](https://github.com/self-driving-car-simulation/documentation)
-2. [Neural Network Optimization Techniques](https://arxiv.org/pdf/optimization-techniques)
+2. [Neural Network Optimization Techniques](https://arxiv.org/pdf/optimization-techniques) -->
 
 
 

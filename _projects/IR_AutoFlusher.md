@@ -15,6 +15,7 @@ description: This content effectively presents the project, highlighting the non
 Design and develop a low-cost automatic flusher system using readily available components. The objective is to create an efficient, cost-effective solution for automated flushing systems that can be implemented in various settings, ensuring hygiene and convenience. This system is developed without using microcontrollers, relying solely on logic gates and basic electronic components.
 
 ## Circuit Design
+<img src="../imgs/IR/IMG_0908.JPG" alt="drawing" width="500"/>
 
 The schematic diagram of the auto flusher circuit, illustrating the configuration of components such as the IR sensors, operational amplifiers, and logic gates. This design enables the detection of a user's presence and activates the flushing mechanism accordingly.
 
@@ -26,6 +27,7 @@ Logic Gates (74 series ICs): Process the signals to control the flushing mechani
 Power Supply: Provides the necessary voltage for circuit operation.
 
 ## PCB Layout
+<img src="../imgs/IR/IMG_0909.JPG" alt="drawing" width="500"/>
 
 The printed circuit board (PCB) layout for the auto flusher, showing the placement of components and the routing of electrical connections. The layout ensures compactness and efficiency in the design.
 

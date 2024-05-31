@@ -20,11 +20,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="tesla">
-  <meta property="og:description" content="blah blah.">
+  <meta property="og:title" content="Boids Flocking Algorithm for Sanitation and Hygiene Operations">
+  <meta property="og:description" content="Implementing the Boids Flocking Algorithm for robotic swarms to enhance sanitation and hygiene operations, ensuring comprehensive area coverage and improved ...">
 
-  <title>tesla</title>
-  <meta name="description" content="blah blah.">
+  <title>Boids Flocking Algorithm for Sanitation and Hygiene Operations</title>
+  <meta name="description" content="Implementing the Boids Flocking Algorithm for robotic swarms to enhance sanitation and hygiene operations, ensuring comprehensive area coverage and improved ...">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -81,15 +81,58 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 post">
-  <h1 id="tesla">Tesla</h1>
+  <h1 id="boids-flocking-algorithm-for-sanitation-and-hygiene-operations">Boids Flocking Algorithm for Sanitation and Hygiene Operations</h1>
+
 <h2 id="problem-statement">Problem Statement</h2>
-<p>only 3 lines from the website view. Worst case scenarios  4lines.</p>
-<h2 id="demostrations">Demostrations</h2>
-<iframe width="560" height="315" src="https://youtube.com/embed/CAkqhIoBDZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<p>Implementing the Boids Flocking Algorithm to create a swarm of robots capable of efficiently covering large areas for sanitation and hygiene operations. The primary goal is to apply this algorithm within the health sector to clear areas of infectants, ensuring meticulous attention to detail and comprehensive coverage.</p>
+
+<h2 id="mathematical-model">Mathematical Model</h2>
+
+<h3 id="approach-1-boids-algorithm">Approach 1: Boids Algorithm</h3>
+<p><img src="../imgs/multiRobot/AP1.png" alt="drawing" width="500" />
+<img src="../imgs/multiRobot/AP11.png" alt="drawing" width="500" /></p>
+
+<ul>
+  <li>Boid agents ( B = {b_i, i = 1, 2, 3, \ldots, n} ).</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Boids within the field of view ( N_i = {b_i \in B; \forall b_j:</td>
+          <td>b_j - b_i</td>
+          <td>\leq L, j = 1, 2, 3, \ldots, f_a} ).</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Position ( l_i ) and velocity ( v_i ) of Boid ( b_i ).</li>
+  <li>Alignment ( a_i ), cohesion ( c_i ), and separation ( s_i ) terms.</li>
+  <li>Next position ( l_j = l_i + v_i + X_a a_i + X_c c_i + X_s s_i ).</li>
+</ul>
+
+<h3 id="approach-2-potential-fields">Approach 2: Potential Fields</h3>
+<p><img src="../imgs/multiRobot/AP2.png" alt="drawing" width="500" /></p>
+
+<ul>
+  <li>System of ( N ) robots with position ( r_i ), velocity ( v_i ), and acceleration ( a_i ).</li>
+  <li>Heading ( \theta_i = \arctan2(\dot{r_i}, \dot{r_i}) ).</li>
+  <li>Control input ( a_i = a_{r_i} + a_{\theta_i} ).</li>
+  <li>Stability and convergence analysis using potential functions.</li>
+</ul>
+
+<h2 id="demonstrations">Demonstrations</h2>
+<h3 id="approach-1-boids-algorithm-1">Approach 1: Boids Algorithm</h3>
+<iframe width="560" height="315" src="https://youtube.com/embed/4Hyo5M2sebk?si=dK37JoPyO-3W53qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<h3 id="approach-2-boids-algorithm">Approach 2: Boids Algorithm</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AK1TjbmK0lc?si=_16cbDyOv2kfrEGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 
 <h2 id="references">References</h2>
 <ul>
-  <li>nnnn</li>
+  <li><a href="https://vanhunteradams.com/Pico/Animal_Movement/Boids-algorithm.html">Boids Algorithm by Van Hunter Adams</a></li>
+  <li>Choi T, Ahn C. “Artificial life based on boids model and evolutionary chaotic neural networks for creating artworks.” Swarm Evol Comput 2019;47:80–9.</li>
+  <li>Tanner, H. G., Jadbabaie, A., &amp; Pappas, G. J. (2003). “Stability of Flocking Motion.” University of Pennsylvania. Technical Report No: MS-CIS-03-03.</li>
+  <li>R. Olfati-Saber, “Flocking for multi-agent dynamic systems: algorithms and theory,” IEEE Transactions on Automatic Control, vol. 51, no. 3, pp. 401-420, March 2006, doi: 10.1109/TAC.2005.864190.</li>
 </ul>
 
 </div>
