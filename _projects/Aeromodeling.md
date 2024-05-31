@@ -1,7 +1,7 @@
 ---
 name: Aeromodelling
 tools: [Design Skills,Construction Skills,Electronics and Control,Piloting Skills,Troubleshooting and Repair,Simulation,Safety,Customization and Optimization]
-image: ../imgs/AeroModeling/Aero.png
+image: ../imgs/projects/Aero.png
 description: Aeromodelling is the craft of designing, building, and flying miniature aircraft. Often scaled-down versions of real planes, these models can be powered or unpowered. Used for recreation, competition, or education, aeromodelling blends art with engineering, offering insights into flight principles and fostering hands-on creativity.
 ---
 # **Aeromodelling**
