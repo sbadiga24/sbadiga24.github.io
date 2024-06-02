@@ -6,7 +6,7 @@ description         : >-
 
 baseurl             :                      # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : sbadiga24/sbadiga24.github.io    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU
+remote_theme        : naren200/naren200.github.io
 
 
 ### Plugins ###
@@ -67,7 +67,7 @@ disqus:
 
 ### Analytics ###
 analytics:
-  enabled: false                                        # Set true to enable analytics
+  enabled: true                                        # Set true to enable analytics
   google:
     tracking_id: G-KLBNSJBD9N                          # your-google-tracking-id
 

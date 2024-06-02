@@ -152,6 +152,42 @@ body { font-family: "San Francisco", sans-serif; }
 .project.card .card-img-top { border-radius: 15px 15px 0 0; width: 100%; height: 8vw; object-fit: cover; }
 .project.card:hover:not(.post) { transform: translateY(-8px); box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24); }
 
+/* Default styles for the iframe */
+iframe { width: 100%; /* Default width for all screens */ height: 100px; /* Default height for all screens */ margin: 0 auto; }
+
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px) { .project.card { border-radius: 15px; text-decoration: none !important; margin: 0px auto; margin-top: 10px; transition: transform 400ms; }
+  .project.card .card-img-top { border-radius: 15px 15px 0 0; width: 100%; height: 27vw; object-fit: cover; }
+  .project.card:hover:not(.post) { transform: translateY(-8px); box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24); }
+  iframe { width: 100%; /* Set a different width for screens <= 600px */ height: 200px; /* Set a different height for screens <= 600px */ } }
+/* Media query for screens with a minimum width of 601px and a maximum width of 1200px */
+@media (min-width: 601px) and (max-width: 1200px) { .project.card { border-radius: 15px; text-decoration: none !important; margin: 0px auto; margin-top: 10px; transition: transform 400ms; }
+  .project.card .card-img-top { border-radius: 15px 15px 0 0; width: 100%; height: 14vw; object-fit: cover; }
+  .project.card:hover:not(.post) { transform: translateY(-8px); box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24); }
+  iframe { width: 100%; /* Set a different width for screens between 601px and 1200px */ height: 400px; /* Set a different height for screens between 601px and 1200px */ display: block; } }
+/* Media query for screens with a minimum width of 1201px */
+@media (min-width: 1201px) { iframe { width: 70%; /* Set a different width for screens >= 1201px */ height: 400px; /* Set a different height for screens >= 1201px */ text-align: center; display: block; } }
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px) { h1 { font-size: 1.3em; /* Set a different font size for h1 on screens <= 600px */ }
+  h2 { font-size: 1.2em; /* Set a different font size for h2 on screens <= 600px */ }
+  h3 { font-size: 1.1em; /* Set a different font size for h3 on screens <= 600px */ }
+  h4 { font-size: 1.15em; /* Set a different font size for h4 on screens <= 600px */ }
+  h5 { font-size: 1em; /* Set a different font size for h5 on screens <= 600px */ }
+  body { font-size: 0.9em; /* Set a different font size for body on screens <= 600px */ } }
+/* Media query for screens with a minimum width of 601px and a maximum width of 1200px */
+@media (min-width: 601px) and (max-width: 1200px) { h1 { font-size: 2em; /* Set a different font size for h1 on screens between 601px and 1200px */ }
+  h2 { font-size: 1.8em; /* Set a different font size for h2 on screens between 601px and 1200px */ }
+  h3 { font-size: 1.6em; /* Set a different font size for h3 on screens between 601px and 1200px */ }
+  h4 { font-size: 1.4em; /* Set a different font size for h4 on screens between 601px and 1200px */ }
+  h5 { font-size: 1.2em; /* Set a different font size for h5 on screens between 601px and 1200px */ }
+  body { font-size: 1em; /* Set a different font size for body on screens between 601px and 1200px */ } }
+/* Media query for screens with a minimum width of 1201px */
+@media (min-width: 1201px) { h1 { font-size: 2.5em; /* Set a different font size for h1 on screens >= 1201px */ }
+  h2 { font-size: 2.2em; /* Set a different font size for h2 on screens >= 1201px */ }
+  h3 { font-size: 1.8em; /* Set a different font size for h3 on screens >= 1201px */ }
+  h4 { font-size: 1.6em; /* Set a different font size for h4 on screens >= 1201px */ }
+  h5 { font-size: 1.4em; /* Set a different font size for h5 on screens >= 1201px */ }
+  body { font-size: 1.2em; /* Set a different font size for body on screens >= 1201px */ } }
 .timeline-body { position: relative; border-radius: 0 15px 15px 0; padding: 5px 0; }
 .timeline-body:after { content: ""; width: 4px; height: 100%; background-color: #007bff; position: absolute; left: -4px; top: 0; }
 .timeline-body .timeline-item { position: relative; }
@@ -461,8 +497,28 @@ body { font-family: "San Francisco", sans-serif; }
 
 .work-item { clear: both; overflow: hidden; padding-bottom: 2em; font-family: "San Francisco", sans-serif; font-size: 21px; /* Adjust the font size as needed */ }
 
-.work-bubble { width: 130px; height: 130px; object-fit: cover; }
+.work-bubble { width: 60px; height: 60px; object-fit: cover; font-size: 2px; /* Adjust the font size as needed */ }
 
-.work-bubble-with-date { float: left; padding-right: 60px; width: 120 px; text-align: center; font-family: "San Francisco", sans-serif; font-size: 4px; /* Adjust the font size as needed */ }
+.work-bubble-with-date { float: left; padding-right: 20px; width: 60 px; text-align: center; font-family: "San Francisco", sans-serif; }
 
-.work-text { font-family: "San Francisco", sans-serif; overflow: hidden; font-size: 21px; /* Adjust the font size as needed */ padding-right: 50px; }
+.work-bubble-with-date h6 { font-size: 8px; /* Adjust the font size as needed for smaller screens */ text-transform: uppercase; /* Capitalize all text */ font-weight: bold; /* Make the font thicker */ }
+
+.work-text { font-family: "San Francisco", sans-serif; overflow: hidden; font-size: 12px; /* Adjust the font size as needed */ padding-right: 2px; }
+
+/* Styles for screens with a min width of 1200px (adjust as needed) */
+@media (min-width: 800px) { .work-item { clear: both; overflow: hidden; padding-bottom: 2em; font-family: "San Francisco", sans-serif; font-size: 21px; /* Adjust the font size as needed */ }
+  .work-bubble { width: 130px; height: 130px; object-fit: cover; }
+  .work-bubble-with-date { float: left; padding-right: 50px; width: 120 px; text-align: center; font-family: "San Francisco", sans-serif; font-size: 4px; /* Adjust the font size as needed */ }
+  .work-text { font-family: "San Francisco", sans-serif; overflow: hidden; font-size: 21px; /* Adjust the font size as needed */ }
+  .work-bubble-with-date h6 { font-size: 18px; /* Larger font size for larger screens */ text-transform: uppercase; /* Capitalize all text */ font-weight: bold; /* Make the font thicker */ } }
+h4.page-heading { font-size: 23px; font-family: sans-serif; }
+
+h4.mb-3 { font-size: 18px; }
+
+@media (min-width: 768px) { h4.page-heading { font-size: 26px; }
+  h4.mb-3 { font-size: 21px; } }
+@media (min-width: 1200px) { h4.page-heading { font-size: 30px; }
+  h4.mb-3 { font-size: 24px; } }
+.uia-card__container { display: grid; gap: var(--uia-card-content-gap, 0.5rem); padding: var(--uia-card-padding, 1rem 1.75rem); position: relative; background-color: var(--uia-card-background-color); border-inline-start: var(--uia-card-border-thickness, 2px) var(--uia-card-border-style, solid) var(--uia-card-border-color, currentColor); box-shadow: var(--uia-card-box-shadow, 0 4px 8px 0 rgba(0, 0, 0, 0.62), 0 1px 2px 0 rgba(0, 0, 0, 0.64)); border-radius: var(--uia-card-border-radius, 10px); /* Adjust the radius as needed */ background-color: rgba(0, 2, 53, 0.141); backdrop-filter: blur(50px); /* Add a blur effect */ }
+
+.uia-card__container::before { content: ""; position: absolute; top: 0; left: 0; border-radius: var(--uia-card-border-radius, 10px); /* Adjust the radius as needed */ width: 100%; height: 100%; backdrop-filter: blur(10px); /* Adjust the blur radius as needed */ z-index: -1; /* Ensure the overlay is behind the content */ }

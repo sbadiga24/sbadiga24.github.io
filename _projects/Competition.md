@@ -31,17 +31,29 @@ Secured a Gold medal, highlighting superior design and programming skills.
 
 
 ## Gallery
+
 ### 2018 Mobile Robotics Competition
-<img src="../imgs/competition/2018/2k18STGRP.jpeg" alt="drawing" width="500"/> 
-<img src="../imgs/competition/2018/2k18REGRP.jpg" alt="drawing" width="500"/> 
-<img src="../imgs/competition/2018/2k18NAGRP.jpeg" alt="drawing" width="500"/> 
-<img src="../imgs/competition/2018/REMEDAL.jpeg" alt="drawing" width="500"/> 
-<img src="../imgs/competition/2018/REG_MEDAL.jpeg" alt="drawing" width="500"/> 
+<table>
+  <tr>
+    <td><img src="../imgs/competition/2018/2k18STGRP.jpeg" alt="2018 State Group" width="250"/></td>
+    <td><img src="../imgs/competition/2018/2k18REGRP.jpg" alt="2018 Regional Group" width="250"/></td>
+    <td><img src="../imgs/competition/2018/2k18NAGRP.jpeg" alt="2018 National Group" width="250"/></td>
+  </tr>
+  <tr>
+    <td><img src="../imgs/competition/2018/REMEDAL.jpeg" alt="2018 Regional Medal" width="250"/></td>
+    <td><img src="../imgs/competition/2018/REG_MEDAL.jpeg" alt="2018 Regional Medal 2" width="250"/></td>
+  </tr>
+</table>
 
 ### 2021 State Level Competition
-<img src="../imgs/competition/2021/20210825_072055722_iOS.jpg" alt="drawing" width="500"/>
-<img src="../imgs/competition/2021/20211126_094118251_iOS.jpg" alt="drawing" width="500"/>
-<img src="../imgs/competition/2021/IMG-20200531-WA0007.jpg" alt="drawing" width="500"/>
-<img src="../imgs/competition/2021/IMG_20200303_122555.jpg" alt="drawing" width="500"/>
-
+<table>
+  <tr>
+    <td><img src="../imgs/competition/2021/20210825_072055722_iOS.jpg" alt="2021 Competition Scene" width="250"/></td>
+    <td><img src="../imgs/competition/2021/20211126_094118251_iOS.jpg" alt="2021 Team Preparation" width="250"/></td>
+    <td><img src="../imgs/competition/2021/IMG-20200531-WA0007.jpg" alt="2021 Team Photo" width="250"/></td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="../imgs/competition/2021/IMG_20200303_122555.jpg" alt="2021 Robot Testing" width="500" style="display: block; margin: auto;"/></td>
+  </tr>
+</table>
 
