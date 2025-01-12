@@ -16,7 +16,7 @@ weight: 1
 
 <div class="column">
   <div>
-    <img class="profilepic" style="float: center; border-radius: 50%;" src="../imgs/small_main.jpg" alt="Kitten" title="Sai Manikanta" width="300" height="200" />
+    <img class="profilepic" style="float: center; border-radius: 50%;" src="../imgs/small_main.jpg" alt="Kitten" title="Sai Manikanta Badiga" width="300" height="200" />
   </div>
 
 <div class="column" style="width: 100%; margin-left: 0px">
@@ -27,32 +27,31 @@ weight: 1
 
 
 
-  <h2><b>Academic and Robotics Pursuits</b></h2>
-  <br>
-    <p style="font-size: 18px">
-    I am currently living out my dream as a student at ,<a href="https://robotics.asu.edu/"> ASU Robotics @ ASU</a>,  right at the heart of innovation. 
-    <br>My goal? To revolutionize robot capabilities in challenging environments, emphasizing perception, Machine Learning, and Aerial Robotics. I thrive on understanding and applying the convergence of automation and AI to real-world challenges, always keeping an eye on the bigger picture.
-    </p>
-  <br>
+ <h2><b>About Me</b></h2>
+<br>
+<p style="font-size: 18px">
+As a Software Development Engineer at <a href="https://blueflite.com">Blueflite</a>, I design and implement cutting-edge firmware and software solutions for UAV systems, specializing in autonomous robotics. My work includes developing and optimizing machine learning models, path-planning algorithms, and sensor integration to enhance UAV performance in complex, real-world environments. Passionate about innovation, I strive to bridge the gap between automation and AI, driving advancements in aerial robotics and embedded systems.
+</p>
 
-  <p style="font-size: 18px">
-    I earned my degree in Electronic and communication from <a href="https://www.kluniversity.in/">KL Deemed to Be University</a>. Alongside my team and under the guidance of the R&D Dean, <a href="link-to-professor-profile">Prof. Subba Rao</a>, I garnered recognition for conceptualizing and developing an autonomous delivery mobile robot prototype. This project leveraged advanced technologies such as ROS, state estimation, sensor fusion, and real-time control algorithms. My dedication to pushing technological boundaries was evident in this endeavor.
-  </p>
+<br>
+<p style="font-size: 18px">
+I earned a Master's degree in Robotics and Autonomous Systems from <a href="https://robotics.asu.edu/">Arizona State University</a> and a Bachelor's degree in Electronics and Communication Engineering from <a href="https://www.kluniversity.in/">KL Deemed to Be University</a>. My academic achievements include designing an autonomous mobile robot prototype powered by ROS, sensor fusion, and real-time control systems, underscoring my dedication to advancing robotics technology.
+</p>
 
-  <h2 style="font-size: 20px" id="achievements"><b>Robotic Achievements</b></h2>
-  <br>
 
-  <p style="font-size: 18px">
-  Under my leadership, our team won the following awards in mobile robotics competitions:
-    <ul>
-    <li>Gold medal in the 2018 state level competition conducted by <a href="https://apssdc.gov.in/">Andhra Pradesh Skill Development Corporation (APSSDC)</a>.</li>
-    <li>Gold medal in the 2018 regional level competition conducted by <a href="https://nsdcindia.org/">National Skills Development Corporation (NSDC)</a>.</li>
-    <li>Silver medal in the 2018 national level competition conducted by <a href="https://nsdcindia.org/">National Skills Development Corporation (NSDC)</a>.</li>
-    <li>Gold medal in the 2020 state level competition conducted by <a href="https://apssdc.gov.in/">Andhra Pradesh Skill Development Corporation (APSSDC)</a>.</li>
-    </ul>
-    <p>
-    </p>
-  </p>
+
+<h2 style="font-size: 20px" id="achievements"><b>Achievements</b></h2>
+<br>
+<p style="font-size: 18px">
+I led my team to achieve several prestigious awards in mobile robotics competitions:
+</p>
+<ul style="font-size: 18px; margin-left: 20px;">
+  <li>Gold Medal – 2018 State Level, <a href="https://apssdc.gov.in/">APSSDC</a></li>
+  <li>Gold Medal – 2018 Regional Level, <a href="https://nsdcindia.org/">NSDC</a></li>
+  <li>Silver Medal – 2018 National Level, <a href="https://nsdcindia.org/">NSDC</a></li>
+  <li>Gold Medal – 2020 State Level, <a href="https://apssdc.gov.in/">APSSDC</a></li>
+</ul>
+
 
   <p style="font-size: 18px">
     My research interests lie at the intersection of Artificial intelligence and robotics. You can read the research questions that I find very fascinating <a href="#Questionsexcitesme">here</a>.
@@ -61,38 +60,42 @@ weight: 1
   <hr> <!-- This line creates a horizontal divider -->
   <br>
   <h2 id="distinguishesme" style="font-size: 25px">
-   <h2><b>My Unique Qualities</b></h2><br>
+<h2><b>What Sets Me Apart</b></h2>
+<br>
 
 <p style="font-size: 18px">
-    <u><b>Perseverance</b></u>: My journey began with a stumble, failing the JEE mains exam. However, my unwavering spirit led me to eventually gain admission into my dream institute, KLU. This same perseverance carried me through challenges in robotics competitions, internships, and research endeavors, molding me into a relentless innovator and problem-solver.
+    <b><u>Perseverance</u></b>: My journey has been one of resilience and determination. From overcoming early setbacks, like failing the JEE Mains, to excelling in robotics and technology, I’ve embraced challenges as opportunities to grow. This perseverance has driven me to innovate, excel in competitive robotics, and contribute meaningfully to cutting-edge research and development.
 </p>
 
 <p style="font-size: 18px">
-    <u><b>Inquisitiveness</b></u>: I'm driven by a genuine curiosity, always keen to understand the intricate technology behind everyday gadgets.
+    <b><u>Curiosity</u></b>: My insatiable curiosity fuels my passion for exploring the intricate technology that powers the world around us. Whether it's understanding the mechanics behind UAV systems or delving into the depths of machine learning algorithms, I am constantly seeking to learn and innovate.
 </p>
 
 <p style="font-size: 18px">
-    <u><b>Innovative Approach</b></u>: While working with R.O.S., I've found that Visual Studio Code offers advantages over traditional terminal-based editing in a Docker environment. Its speed and the plethora of available plugins enable me to efficiently set up an environment, craft a URDF file for a robot, and develop C++ plugins, optimizing my workflow.
+    <b><u>Innovative Problem-Solving</u></b>: My experience working with R.O.S. and developing UAV firmware has honed my ability to think creatively and work efficiently. Leveraging tools like Visual Studio Code in Docker environments, I’ve streamlined workflows for tasks such as building URDF files, integrating sensors, and developing C++ plugins, resulting in faster and more robust solutions.
 </p>
+<br>
 
-  <br>
-
-<h4 style="font-size: 20px">My Philosophy: Passionately Navigating Complex Challenges</h4><br>
+<h4 style="font-size: 20px">My Philosophy: Innovating Through Passion</h4>
+<br>
 
 <p style="font-size: 18px">
-Leveraging the <a href="#distinguishesme">distinctive skills and qualities</a> I've honed over time, I face intricate challenges head-on, always focusing on the core essence of an issue. I'm fervently drawn to the realms of machine learning and perception within robotics. From creating game-changing code for premier robotics competitions to impactful contributions in open-source platforms, my software expertise is both multifaceted and ever-evolving, enriched by a myriad of professional ventures.
-</p><br>
+    With a focus on machine learning, perception, and path planning in robotics, I tackle complex challenges head-on, ensuring practical and impactful solutions. Whether it’s crafting firmware for autonomous drones, optimizing algorithms for robotics competitions, or contributing to open-source platforms, I am driven to advance robotics through innovation and collaboration.
+</p>
+<br>
 
 <p style="font-size: 18px">
-Beyond my technical pursuits, I am deeply moved by the artistry and prowess of performers across various domains. The adrenaline-pumping moments from the final fight in "<a href="https://www.youtube.com/watch?v=IvLl2S2qH1E">Real Steel</a>" particularly resonate with me, showcasing a blend of emotion, technology, and human spirit.
+    Beyond technology, I find inspiration in the human spirit and creativity. Moments like the emotionally charged final fight in "<a href="https://www.youtube.com/watch?v=IvLl2S2qH1E">Real Steel</a>" resonate with me, reminding me of the profound connection between innovation, emotion, and human ingenuity.
 </p>
+
 
 
   <br>
 
   <hr> <!-- This line creates a horizontal divider -->
   <hr> <!-- This line creates a horizontal divider -->
-<h2 id="Questionsexcitesme" style="font-size: 25px"><b>Questions That Spark My Curiosity</b></h2><br>
+<!-- <h2 style="font-size: 20px" id="achievements"><b>Achievements</b></h2> -->
+<h2 style="font-size: 25px" id="Questionsexcitesme"><b>Questions That Spark My Curiosity</b></h2><br>
   <p style="font-size: 18px">
     <ul style="font-size: 18px">
     <li><b>Unstructured Environments & Robotic Autonomy:</b> <br> How might we elevate robots' ability to autonomously navigate and execute intricate tasks in unpredictable terrains, like disaster zones or interstellar missions? </li>
